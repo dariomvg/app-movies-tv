@@ -115,7 +115,7 @@ export const Header = () => {
         </nav>
       </div>
       <footer className="footer-menu">
-        <p className="title-footer">© PlatformMovies 2025</p>
+        <p className="title-footer">© AppMovies 2025</p>
       </footer>
     </header>
   );
