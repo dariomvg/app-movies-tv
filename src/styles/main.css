@@ -1,0 +1,171 @@
+.page-main {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.section-movies {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-movies {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px;
+}
+
+.aside-upcomings {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px;
+}
+
+.title-container {
+  color: #fff;
+}
+.list-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.list-content-upcomings {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+/* container-main */
+
+.section-header-main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.image-main {
+  object-fit: cover;
+}
+
+.container-main {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  backdrop-filter: blur(2px);
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+}
+
+.box-container-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.box-title-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.title-container-main {
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.average-container-main {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.date-container-main {
+  color: #fff;
+  font-family: 16px;
+  font-weight: 500;
+}
+
+.overview-container-main {
+  color: #eee;
+  font-size: 18px;
+}
+
+/* container-upcoming */
+
+.section-upcoming {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container-upcoming {
+  font-size: 40px;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 30px;
+}
+.container-upcoming {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  background-color: #10101049;
+  backdrop-filter: blur(3px);
+  display: grid;
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.image-upcoming {
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .section-movies {
+      flex-direction: column;
+  }
+  .container-movies{
+    width: 100%;
+  }
+  .list-content {
+    justify-content: space-between;
+  }
+  .aside-upcomings {
+    width: 100%;
+  }
+  .list-content-upcomings {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .title-container-upcoming {
+      display: none;
+  }
+  .section-upcoming {
+    display: none;
+  }
+}

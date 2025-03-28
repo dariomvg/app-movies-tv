@@ -1,0 +1,64 @@
+.card-content {
+    width: 200px;
+    list-style: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.link-card-content {
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+.link-card-content:hover {
+    transform: scale(.9);
+    transition: .5s;
+}
+
+
+.image-card-content {
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.container-card-content {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.average-card-content {
+    font-size: 16px;
+    color: #ddd;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+
+.button-save-card {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.title-card-content {
+    color: #fff;
+}
+
+
+@media (max-width: 1024px) {
+    .card-content {
+        width: 170px;
+    }
+}
+

@@ -1,0 +1,68 @@
+.form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.input-search {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+.input-search:focus {
+    border-color: #fff;
+}
+.input-search::placeholder {
+    font-size: 14px;
+}
+.button-search {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-search:hover {
+    background-color: #ffffff77;
+}
+
+
+.form.active-form {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

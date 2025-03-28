@@ -1,0 +1,74 @@
+.page-my-list {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+.container-my-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.card-my-list {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-my-list {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.button-my-list:hover {
+    border-color: #ff2e09;
+    color: #ff2e09;
+}
+
+.section-without-movies {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-without-movies p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.section-without-movies .link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

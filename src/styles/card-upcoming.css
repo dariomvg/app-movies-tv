@@ -1,0 +1,20 @@
+.card-aside {
+    width: 200px;
+    list-style: none;
+}
+
+.image-card-aside {
+    object-fit: cover;
+
+}
+
+.title-card-aside {
+    color: #eee;
+}
+
+@media (max-width: 1024px) {
+    .card-aside {
+        width: 170px;
+    }
+}
+
