@@ -25,7 +25,7 @@ export const ContainerMain = ({ movie }: { movie: Content }) => {
         <div className="box-container-main">
           <div className="box-title-link">
             <Link
-              to={`/content/${id}/${title}`}
+              to={`/content/${id}/movie/${title}`}
               className="title-container-main">
               {original_title}
             </Link>

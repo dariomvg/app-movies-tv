@@ -84,3 +84,9 @@
     opacity: 1;
     transition: 0.5s; 
 }
+
+@media (max-width: 425px) {
+  .header.active {
+    width: 300px;
+  }
+}

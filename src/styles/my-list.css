@@ -61,7 +61,11 @@
 
 
 
-
+@media (max-width: 768px) {
+    .container-my-list {
+        gap: 0;
+    }
+}
 
 
 

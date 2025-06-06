@@ -58,7 +58,6 @@
 
 @media (max-width: 1024px) {
     .card-content {
-        width: 170px;
+        width: 160px;
     }
 }
-
